@@ -1,0 +1,65 @@
+a {
+  text-decoration: none; 
+}
+.App{
+  display: flex;
+  flex-wrap: wrap;
+}
+.SearchBar{
+  display:flex;
+  justify-content: center;
+}
+.rating{
+  margin-left: 30px;
+  margin-top:10px;
+}
+.inputSearch{
+  width: 500px;
+}
+.addMovie{
+  display:flex;
+  flex-direction: column;
+  width: 260px;
+  height: 360px;
+  margin: 20px;
+}
+.addMovie img {
+  width:260px;
+  height:300px;
+}
+h3{
+  display:flex;
+  justify-content: center;
+  line-height: 4px;
+  color: #000;
+
+}
+.rate{
+  display:flex;
+  justify-content: center;
+}
+.btn-danger{
+  width:260px;
+  height:300px;
+  margin: 20px;
+}
+.search{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  margin:20px;
+}
+.search input{
+  width:500px;
+}
+#root{
+  height: 400px;
+  display:flex;
+  justify-content: center;
+  
+}
+i{
+  margin:20px;
+  font-size: 40px;
+  color:rgb(238, 0, 167)
+}
